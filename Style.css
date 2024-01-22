@@ -1,6 +1,6 @@
 body{
     background-color: rgba(14, 14, 175, 0.911);
-    
+    /*background-color:linear-gradient(236.8deg, rgba(7, 40, 223, 0.692) 30%, rgba(0, 0, 0, 0.281));*/
 }
 .sidebar{
     position: fixed;
@@ -58,39 +58,51 @@ body{
 
 }
 
+/* Sua bibliotca */
 .library {
-    background-color: #121212;
-    border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    min-block-size: 40px;
-    padding: 4px 8px;
+
+    background-color: #121212;
     color: #b3b3b3;
+    
+    border-radius: 8px;
+    
+    min-block-size: 40px;
+    margin-top: 10px;
+    padding: 4px 8px;
+
     font-weight: 600;
     font-size: 14px;
-    margin-top: 10px;
+    
     flex-direction: column;
 }
 
 .library .library__button {
-    margin-right: 10px;
-    color: #b3b3b3;
+    display: flex;
+    
     background-color: transparent;
+    color: #b3b3b3;
+
     border: 0px;
+
     font-size: 1rem;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    
     text-align: center;
     text-decoration: none;
     text-transform: none;
+    
+    margin-right: 10px;
     padding: 20px 10px;
-    display: flex;
 }
 
 .library .library__button .fa {
     font-size: 20px;
-    margin-right: 10px;
     font-weight: 300;
+    
+    margin-right: 10px;
     padding-right: 8px;
 }
 
