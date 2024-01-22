@@ -57,3 +57,48 @@ body{
     font-size: 14xp;
 
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.library .library__button {
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.library .library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+   margin: 24px 10px;
+}
