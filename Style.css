@@ -22,7 +22,7 @@ body{
 }
 
 .sidebar__navigation .logo{
-    display: flex;
+    /*display: flex;*/
 
     background: #121212;
 
