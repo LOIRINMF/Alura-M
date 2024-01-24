@@ -56,7 +56,10 @@ body {
 
 .sidebar nav ul li {
     padding: 10px 0;
+}
 
+.sidebar nav ul li a:hover{
+    color: var(--mC);
 }
 
 .sidebar nav ul li a {
@@ -69,7 +72,6 @@ body {
 
 }
 
-/* Sua bibliotca */
 .library {
     display: flex;
     justify-content: space-between;
@@ -113,6 +115,10 @@ body {
 
     margin-right: 10px;
     padding: 20px 10px;
+}
+
+.library .library__button:hover{
+    color: var(--mC);
 }
 
 .library .library__button .fa {
@@ -192,6 +198,11 @@ body {
     width: 113px;
 }
 
+.section-playlist__button:hover{
+    background: var(--back);
+    color: var(--mC-f);
+}
+
 .cookies {
     margin: 25px 20px;
 }
@@ -207,6 +218,7 @@ body {
 
 .cookies a:hover {
     text-decoration: underline;
+    color: var(--mC);
 }
 
 .languages__button {
@@ -228,6 +240,11 @@ body {
     padding: 8px;
 }
 
+.languages__button:hover{
+    background: var(--back);
+    color: black;
+}
+
 .disclaimer-premium {
     display: flex;
     justify-content: space-between;
@@ -241,6 +258,11 @@ body {
 
     padding: 15px 40px;
     margin-top: 10px;
+}
+
+.disclaimer-premium .button .button__inscreva:hover{
+    background: var(--back);
+    color: var(--mC-f);
 }
 
 .disclaimer-premium .disclaimer-premium__title {

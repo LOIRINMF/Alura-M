@@ -1,4 +1,3 @@
-/* HEADER */
 .main-container {
   max-width: 80vw;
   height: 100vh;
@@ -7,16 +6,7 @@
   margin-right: 56px;
 }
 
-/* DISPLAY * TOTAL e vamos passar rapidamente por cada um deles
-block: Um elemento com display: block sempre inicia em uma nova linha e ocupa toda a largura disponível.
-Ele empilha verticalmente um sobre o outro.
-
-inline: Um elemento com display: inline não inicia em uma nova linha e apenas ocupa o espaço necessário para o conteúdo.
-Elementos inline não aceitam largura (width) e altura (height).
-
-inline-block: Um elemento com display: inline-block combina características de elementos inline e block.
-Ele não inicia uma nova linha e permite a definição de largura e altura.
-
+/* DISPLAY 
 flex: A propriedade display: flex é usada para criar um contêiner flexível.
 Os itens dentro do contêiner flexível podem ser ajustados em termos de tamanho, ordem e alinhamento.
 
@@ -31,7 +21,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 */
 .header__navigation {
   display: flex;
-  /* ESSES detalhes que tem dentro do display flex, mostra no navegador como fica */
+
   justify-content: space-between;
   align-items: center;
 
@@ -69,6 +59,10 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   border: none;
   
   cursor: pointer;
+}
+
+.arrow-left,.arrow-right:hover {
+  background-color: var(--back);
 }
 
 .header__login {
@@ -132,7 +126,6 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   border-radius: 40px;
 }
 
-/* HOVER */
 
 .header__search:hover {
   border: 1px solid #fff;
@@ -146,9 +139,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .header__login .login:hover {
   transform: scale(1.04);
 }
-/* FIM HOVER */
 
-/*FIM HEADER */
 
 /* PLAYLIST */
 .playlist-container {
@@ -207,13 +198,10 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   margin: 0 auto;
 }
 
-/* POSITION */
-/* principais são static, relative, absolute, fixed, e sticky. */
-
 .cards {
   position: relative; /* relative:
                           Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
-                          Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
+           Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
   width: 220px;
   height: 200px;
   overflow: hidden;
@@ -221,17 +209,19 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 }
 
 .cards span {
-  padding: 16px;
   position: absolute;
   /* absolute:
-                          Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
-                          Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
-  color: var(--text-base-light);
-  font-size: 24px;
-  font-weight: 700;
+            Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
+     Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
+  
+     color: var(--text-base-light);
+     
+     padding: 16px;
+  
+     font-size: 24px;
+     font-weight: 700;
 }
 
-/* COLOR CARDS */
 .card1 {
   background-color: rgb(0, 100, 80);
 }
@@ -277,7 +267,6 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .card15 {
   background: rgb(60, 30, 80);
 }
-/* FIM COLOR CARDS */
 
 .offer__list-item img {
   position: absolute;
@@ -398,4 +387,3 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 #result-artist {
   padding: 20px 40px;
 }
-/* FIM CARD ARTISTA */

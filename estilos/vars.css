@@ -1,5 +1,4 @@
 :root {
-  /* Colors */
   --text-base-dark: #000;
   --text-base-light: #fff;
   --text-sub: #a7a7a7;
@@ -11,9 +10,8 @@
 
   --mC: rgb(172, 190, 10);
   --mC-f: rgb(230, 255, 7);
+  --back:rgb(122, 122, 122);
 
-
-  /* Colors Cards */
   --card1: rgb(0, 100, 80);
   --card2: rgb(132, 0, 231);
   --card3: rgb(30, 50, 100);
@@ -30,7 +28,6 @@
   --card14: rgb(0, 30, 80);
   --card15: rgb(60, 30, 80);
 
-  /* Fonts */
   --font-dm-sans: "DM Sans", sans-serif;
 }
 
