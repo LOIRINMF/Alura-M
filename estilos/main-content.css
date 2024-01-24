@@ -2,6 +2,7 @@
 .main-container {
   max-width: 80vw;
   height: 100vh;
+
   margin-left: 320px;
   margin-right: 56px;
 }
@@ -33,11 +34,12 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   /* ESSES detalhes que tem dentro do display flex, mostra no navegador como fica */
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+
+  padding: 12px;
   margin: 10px;
-  border-radius: 8px;
+
   background-color: #121212;
-  /* padding: 12px; */
+  border-radius: 8px;
 }
 
 .header__navigation .navigation {
@@ -55,12 +57,16 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 32px;
   height: 32px;
+
   background: var(--bg-icon);
   background-color: rgba(0, 0, 0, 0.7);
+
   border-radius: 50%;
   border: none;
+  
   cursor: pointer;
 }
 
@@ -72,11 +78,14 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .header__search {
   display: flex;
   align-items: center;
+
   width: 364px;
   height: 48px;
   margin-left: 8px;
+
   background-color: #242424;
-  border-radius: 500px;
+  
+  border-radius: 300px;
   border: 1px solid transparent;
 }
 
@@ -88,30 +97,37 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .header__search input {
   background: transparent;
+  color: #fff;
+
   border: none;
   padding: 0px 100px 0 12px;
-  color: #fff;
-  text-overflow: ellipsis;
-  outline: none;
+  
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+
+  outline: none; /*Barra*/
+  white-space: nowrap; /*Deix texto em uma linha so*/
 }
 
 .header__login .subscribe {
+  background-color: transparent;
   color: var(--text-sub);
+
+  margin-right: 32px;
+
   font-size: 16px;
   font-weight: 700;
-  background-color: transparent;
-  margin-right: 32px;
 }
 
 .header__login .login {
+  color: var(--text-base-dark);
+
   width: 100px;
   height: 48px;
-  color: var(--text-base-dark);
+  
   font-size: 16px;
   font-weight: 700;
+  
   border-radius: 40px;
 }
 

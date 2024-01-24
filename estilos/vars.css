@@ -9,6 +9,10 @@
   --grid-gap: 24px;
   --column-count: 5;
 
+  --mC: rgb(172, 190, 10);
+  --mC-f: rgb(230, 255, 7);
+
+
   /* Colors Cards */
   --card1: rgb(0, 100, 80);
   --card2: rgb(132, 0, 231);
@@ -31,8 +35,6 @@
 }
 
 /* MEDIA QUERYS */
-@media screen and (max-width: 767px) {
-}
+@media screen and (max-width: 767px) {}
 
-@media screen and (min-width: 768px) and (max-width: 1274px) {
-}
+@media screen and (min-width: 768px) and (max-width: 1274px) {}

@@ -1,10 +1,6 @@
-:root{
-    --mC: rgb(172, 190, 10);
-    --mC-f: rgb(230, 255, 7);
-}
-
 body {
     background: rgba(46, 46, 187, 0.911);
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -63,7 +59,6 @@ body {
 
     text-decoration: none;
 
-    font-family: "DM sans", sans-serif;
     font-weight: 600;
     font-size: 14xp;
 
@@ -155,8 +150,6 @@ body {
 }
 
 .section-plsylist__content .text {
-    font-family: "DM sans", sans-serif;
-
     padding: 14px;
 
     color: white;
@@ -183,7 +176,6 @@ body {
 
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM sans", sans-serif;
 
     text-decoration: none;
     text-transform: none;
