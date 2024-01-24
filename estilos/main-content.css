@@ -37,6 +37,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
   padding: 12px;
   margin: 10px;
+  width: 100%;
 
   background-color: #121212;
   border-radius: 8px;
