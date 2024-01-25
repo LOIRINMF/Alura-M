@@ -55,3 +55,4 @@ document.addEventListener('input', function () {
 
   requestApi(searchTerm);
 })
+// CHATGPT criar api em json, js.
