@@ -19,3 +19,5 @@ const greetingMessage =
     : "Boa noite";
 
 greetingElement.textContent = greetingMessage;
+
+/*https://github.com/RodrigoHarder/imersao-frontend/tree/main/spotify-imersao-alura-aula-04*/
