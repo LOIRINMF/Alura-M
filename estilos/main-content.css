@@ -202,8 +202,8 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   position: relative; /* relative:
                           Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
            Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
-  width: 220px;
-  height: 200px;
+  width: 210px;
+  height: 190px;
   overflow: hidden;
   border-radius: 8px;
 }
