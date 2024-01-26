@@ -144,8 +144,10 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 /* PLAYLIST */
 .playlist-container {
   height: 68vh;
+  
   padding-top: 16px;
   margin: 10px;
+  
   border-radius: 10px;
   background-color: #121212;
 }
@@ -156,13 +158,16 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .playlist #greeting {
   color: var(--text-base-light);
+  
   font-size: 32px;
   font-weight: 700;
+  
   margin-bottom: 48px;
 }
 
 .playlist .session {
   color: var(--text-base-light);
+  
   font-size: 24px;
   font-weight: 700;
 }
@@ -171,6 +176,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .offer__scroll-container {
   max-height: 43vh;
   margin: 24px;
+  
   overflow-y: auto;
 }
 
@@ -186,9 +192,11 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .offer__list-item {
   display: grid;
   justify-items: center;
+
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   gap: 16px;
+  
   margin-bottom: 16px; 
 
   /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA
@@ -270,10 +278,13 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .offer__list-item img {
   position: absolute;
+  
   right: 0;
   bottom: 0;
+  
   height: auto;
   width: 107px;
+  
   transform: rotate(25deg) translate(18%, -2%);
 }
 
@@ -293,18 +304,23 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   grid-gap: var(--grid-gap);
   display: grid;
   grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+  
   min-width: var(--min-container-width);
 }
 
 .artist-card {
+  position: relative;
+  
   background: #181818;
   border-radius: 8px;
+  
+  transition: background-color 0.3s ease;
+  isolation: isolate;
+  
   -ms-flex: 1;
   flex: 1;
-  isolation: isolate;
+  
   padding: 16px;
-  position: relative;
-  transition: background-color 0.3s ease;
   width: 100%;
 }
 
@@ -315,41 +331,52 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .card-img {
   padding-bottom: 100%;
   position: relative;
+  
   width: 100%;
+  
   margin-bottom: 16px;
 }
 
 .artist-img {
-  height: 100%;
-  left: 0;
   position: absolute;
-  top: 0;
+  
+  height: 100%;
   width: 100%;
+  
+  left: 0;
+  top: 0;
+  
   border-radius: 50%;
 }
 
 .card-text {
   display: flex;
   flex-direction: column;
+  
   color: #fff;
+  
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  
   min-height: 62px;
 }
 
 .card-text a {
   display: inline-block;
+  
   max-width: 100%;
   vertical-align: middle;
 }
 
 .artist-name {
   box-sizing: border-box;
+  
+  padding-block-end: 8px;
   margin-block: 0px;
+  
   font-size: 16px;
   font-weight: 700;
-  padding-block-end: 8px;
 }
 
 .artist-categorie {
