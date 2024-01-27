@@ -1,31 +1,31 @@
 @media screen and (max-width: 1015px) {
   .header__search {
-    /* display: none !important; */
+    display: none !important;
     width: auto !important;
     display: none;
   }
 
-  /* .header__login .subscribe {
+   .header__login .subscribe {
     font-size: 12px !important;
     padding: 10px !important;
     margin-right: 5px !important;
-  } */
+  } 
 
-  /* .offer__list-item {
+   .offer__list-item {
     grid-template-columns: 1fr 1fr !important;
-  } */
+  } 
 }
 
 @media screen and (min-width: 1016px) and (max-width: 1140px) {
   .header__search {
-    /* display: none !important; */
+    display: none !important;
     width: auto !important;
     display: none;
   }
 
-  /* .offer__list-item {
+  .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr !important;
-  } */
+  } 
 }
 
 @media screen and (max-width: 375px) {
@@ -34,8 +34,8 @@
   }
 
   .playlist-container {
-    width: 100%; /* Ocupa toda a largura disponível */
-    height: auto; /* Altura automática, ajusta conforme o conteúdo */
+    width: 100%;
+    height: auto;
   }
 
   .sidebar {
