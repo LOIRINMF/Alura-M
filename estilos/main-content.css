@@ -102,7 +102,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   outline: none; /*Barra*/
   white-space: nowrap; /*Deix texto em uma linha so*/
 }
-/*Em menos 1110x403 a seatch some*/
+/*Em menos 1110x403 a input some*/
 .header__login .subscribe {
   background-color: transparent;
   color: var(--text-sub);
