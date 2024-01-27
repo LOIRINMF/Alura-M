@@ -35,7 +35,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .header__navigation .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
